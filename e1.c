@@ -1,6 +1,3 @@
-
-// Name: Gaurav    |    Assignment: 1   |   Roll No.: 12111073
-
 // Write a program to find sum of n natural number using for loop.
 #include <stdio.h>
 #include <conio.h>

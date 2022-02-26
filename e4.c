@@ -1,6 +1,3 @@
-
-// Name: Gaurav    |    Assignment: 1   |   Roll No.: 12111073
-
 // Write a program to calculate Nth term of Fibonacci Series.
 #include <conio.h>
 #include <stdio.h>
@@ -22,5 +19,16 @@ int main()
         d = b;
         i++;
     }
-    printf("%d", b);
+    if (a == 1)
+    {
+        printf("The %dst term of Fibonacci Series is : %d", a, 0);
+    }
+    else if (a == 2)
+    {
+        printf("The %dnd term of Fibonacci Series is : %d", a, 1);
+    }
+    else
+    {
+        printf("The %dth term of Fibonacci Series is : %d", a, b);
+    }
 }

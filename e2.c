@@ -1,6 +1,3 @@
-
-// Name: Gaurav    |    Assignment: 1   |   Roll No.: 12111073
-
 // Write a program to find a number is divided by 2,7,11 or not using switch case.
 #include <stdio.h>
 #include <conio.h>
